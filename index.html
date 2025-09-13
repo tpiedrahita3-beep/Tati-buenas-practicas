@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Reserva de Citas - Odontología</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Centro Odontológico Sonrisa Feliz</h1>
+    <h2>Reserva tu cita en línea</h2>
+
+    <form id="formulario-cita">
+      <label for="nombre">Nombre completo:</label>
+      <input type="text" id="nombre" name="nombre" required>
+
+      <label for="email">Correo electrónico:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="profesional">Profesional:</label>
+      <select id="profesional" name="profesional" required>
+        <option value="">Seleccione un profesional</option>
+        <option>odontologo 1</option>
+        <option>odontologo 2</option>
+        <option>odontologo 3</option>
+      </select>
+
+      <label for="fecha">Fecha de la cita:</label>
+      <input type="date" id="fecha" name="fecha" required>
+
+      <label for="hora">Hora de la cita:</label>
+      <select id="hora" name="hora" required>
+        <option value="">Seleccione una hora</option>
+        <option>08:00 AM</option>
+        <option>09:00 AM</option>
+        <option>10:00 AM</option>
+        <option>11:00 AM</option>
+        <option>02:00 PM</option>
+        <option>03:00 PM</option>
+      </select>
+
+      <button type="submit">Reservar Cita</button>
+    </form>
+
+    <div id="resultado"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
