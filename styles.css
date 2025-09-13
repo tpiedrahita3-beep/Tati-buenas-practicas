@@ -40,15 +40,15 @@ input, select {
 button {
   margin-top: 20px;
   padding: 10px;
-  background-color: #0ac9a6;
-  color: white;
+  background-color: #f90fba;
+  color: rgb(242, 13, 177);
   border: none;
   border-radius: 5px;
   cursor: pointer;
 }
 
 button:hover {
-  background-color: #004d40;
+  background-color: #ec0dcb;
 }
 
 #resultado {
